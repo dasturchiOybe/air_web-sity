@@ -1,0 +1,87 @@
+.instal{
+    margin-bottom: 112px;
+    .wraper{
+        margin-top: 112px;
+        margin-bottom: 112px;
+        display: flex;
+        justify-content: space-between;
+        h2{
+            color: var(--2-b-2828, #2B2828);
+            text-align: center;
+            font-size: 48px;
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+        }
+        h4{
+            color: var(--505056, #505056);
+            text-align: center;
+            font-size: 24px;
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120%;
+        }
+    }
+    .performance{
+        h2{
+            margin: 0 auto;
+            text-align: center;
+            width: 815px;
+            color: var(--2-b-2828, #2B2828);
+            font-size: 48px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 24px;
+        }
+        .p{
+            color: var(--505056, #505056);
+            font-size: 16px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            text-align: center;
+        }
+        .comment{
+            margin-top: 130px;
+            display: flex;
+            justify-content: space-between;
+            .card{
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                width: 357px;
+                text-align: left;
+                &:hover{
+                    border-radius: 8px;
+                    background: #FFF;
+                    box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+                }
+                img{
+                    width: 88px;
+                }
+                h3{
+                    text-align: left;
+                    color: var(--2-b-2828, #2B2828);
+                    font-size: 20px;
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%;
+                }
+                p{
+                    text-align: left;
+                    display: flex;
+                    width: 330px;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.download{
+    background: var(--besic-app-primary, #007AFF);
+    padding-top: 96px;
+    padding-bottom: 96px;
+    h2{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 48px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    h5{
+        margin: 32px auto;
+        width: 586px;
+        color: var(--white, #FFF);
+        text-align: center; 
+        font-size: 16px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+    }
+    .email-group{
+        margin: 0 auto;
+        width: 684px;
+        padding-top: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        .email{
+            display: flex;
+            #emaill{
+                font-size: 18px;
+                padding: 16px;
+                border: none;
+                display: flex;
+                flex-direction: column;
+                width: 464px;
+                height: 56px;
+                border-radius: 4px;
+                background: var(--white, #FFF);
+            }
+            button{
+                margin-left: 21px;
+                cursor: pointer;
+                border: none;
+                display: flex;
+                height: 56px;
+                padding: 16px 28px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                border-radius: 10px;
+                background: var(--2-b-2828, #2B2828);
+                p{
+                    color: var(--label-color-dark-primary, #FFF);
+                    text-align: center;
+                    font-size: 16px;
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 155%;
+                    letter-spacing: 0.32px;
+                }
+            }
+        }
+        p{
+            color: #FFF;
+            font-size: 16px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+        }
+    }
+}
