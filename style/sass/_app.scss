@@ -67,7 +67,7 @@
     padding-top: 112px;
     background: #fff;
     h2{
-        width: 686px;
+        width: 600px;
         color: var(--2-b-2828, #2B2828);
         font-size: 48px;
         font-family: Rubik;
@@ -78,7 +78,7 @@
     p{
         margin-top: 24px;
         margin-bottom: 32px;
-        width: 733px;
+        width: 633px;
         color: var(--505056, #505056);
         font-size: 16px;
         font-family: Rubik;
@@ -87,6 +87,7 @@
         line-height: 120%;
     }
     .card-group{
+        width: 630px;
         display: flex;
         gap: 24px;
         .card{
@@ -122,7 +123,11 @@
         margin-top: 32px;
     }
     .img{
-        margin-left: 40px;
+        margin-left: 5px; 
+        img{
+            width: 675px;
+            height: 760px;
+        }
     }
 }
 }

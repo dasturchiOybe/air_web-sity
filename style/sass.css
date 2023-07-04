@@ -262,7 +262,7 @@ header .home .img img {
   background: #fff;
 }
 .app1 .app2 h2 {
-  width: 686px;
+  width: 600px;
   color: var(--2-b-2828, #2B2828);
   font-size: 48px;
   font-family: Rubik;
@@ -273,7 +273,7 @@ header .home .img img {
 .app1 .app2 p {
   margin-top: 24px;
   margin-bottom: 32px;
-  width: 733px;
+  width: 633px;
   color: var(--505056, #505056);
   font-size: 16px;
   font-family: Rubik;
@@ -282,6 +282,7 @@ header .home .img img {
   line-height: 120%;
 }
 .app1 .app2 .card-group {
+  width: 630px;
   display: flex;
   gap: 24px;
 }
@@ -317,7 +318,11 @@ header .home .img img {
   margin-top: 32px;
 }
 .app1 .app2 .img {
-  margin-left: 40px;
+  margin-left: 5px;
+}
+.app1 .app2 .img img {
+  width: 675px;
+  height: 760px;
 }
 
 .simple {
