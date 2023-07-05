@@ -8,6 +8,10 @@
   font-family: Rubik;
   src: url(../../fonts/rubik/Rubik-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: Space Grotesk;
+  src: url(../../fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
 .container {
   width: 1280px;
   margin: 0 auto;
@@ -116,7 +120,10 @@ header .home .img img {
   display: flex;
   justify-content: space-between;
 }
-.instal .wraper h2 {
+.instal .wraper .box {
+  width: 112px;
+}
+.instal .wraper .box h2 {
   color: var(--2-b-2828, #2B2828);
   text-align: center;
   font-size: 48px;
@@ -125,7 +132,7 @@ header .home .img img {
   font-weight: 700;
   line-height: 120%;
 }
-.instal .wraper h4 {
+.instal .wraper .box h4 {
   color: var(--505056, #505056);
   text-align: center;
   font-size: 24px;
